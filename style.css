@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    
+
+}
+nav{
+    box-shadow: 5px 2px 5px rgb(153, 152, 152);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    background: rgb(162, 162, 162);
+    display: flex;
+    height: 10vh;
+    align-content: space-around;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.logo img{
+    position: relative;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+.nav_links{
+width: 40%;
+vertical-align: middle;
+}
+.nav_links ul{
+    margin: auto 20px auto 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.nav_links ul a{
+    text-decoration: none;
+}
+.nav_links ul a li{
+    color: rgb(250, 250, 250);
+    list-style: none;
+    font-style: italic;
+    font-size: 14px;
+
+}
+.nav_links ul a li:hover{
+
+
+}
+/*first scenery starting frpm here!!!*/ 
+
+.first_scene{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(images/scene1.jpg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-top: 10px;
+    transform: translateX(50%);
+    transition: .9s ease;
+    display: flex;
+}
+.first_scene.open{
+    transform: translateX(0%);
+}
+.banner_text{
+    flex: 1;
+}
+.banner_text h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.banner_text h3{
+    font-size: 50px;
+    text-align: center;
+    font-style: w;
+    color: white;
+}
+.social_media{
+    display: flex;
+    flex-direction: column;
+
+}
+.social_media a img{
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
